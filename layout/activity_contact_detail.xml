@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tertiary"
+    android:padding="6dp"
+    tools:context=".Activities.Contact_Detail_Activity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        app:cardCornerRadius="20dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="2"
+            android:padding="10dp">
+
+            <TableRow>
+
+                <TextView
+                    android:text="@string/name"
+                    android:textSize="22sp"
+                    android:textColor="@color/primary"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/name"
+                    tools:text="mohitkumar soni"
+                    android:padding="4dp"
+                    android:layout_marginStart="10dp"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:text="@string/phone"
+                    android:textSize="22sp"
+                    android:textColor="@color/primary"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/phone"
+                    tools:text="798798798"
+                    android:padding="4dp"
+                    android:layout_marginStart="10dp"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:text="@string/e_mail"
+                    android:textSize="22sp"
+                    android:textColor="@color/primary"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/email"
+                    tools:text="moihtkumarsoi34@gmail.com"
+                    android:padding="4dp"
+                    android:layout_marginStart="10dp"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:text="@string/notes"
+                    android:textSize="22sp"
+                    android:textColor="@color/primary"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/note"
+                    tools:text="this line is for notes"
+                    android:padding="4dp"
+                    android:layout_marginStart="10dp"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

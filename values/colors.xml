@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#495057</color>
+    <color name="secondary">#6c757d</color>
+    <color name="tertiary">#adb5bd</color>
+    <color name="extra">#ced4da</color>
+
+    <color name="blood_red">#9e2a2b</color>
+    <color name="orange">#e09f3e</color>
+    <color name="light_yellow">#fff3b0</color>
+
+
+
+</resources>
